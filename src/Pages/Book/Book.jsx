@@ -3,7 +3,7 @@ import { FaStarHalfAlt } from "react-icons/fa";
 import { Link } from 'react-router';
 const Book = ({singleBook}) => {
     
-const {bookName, author,bookId, image, rating, category, tags , yearOfPublishing, publisher}= singleBook
+const {bookName,bookId, image, rating, category, tags , yearOfPublishing, publisher}= singleBook
 
     return (
        <Link to={`/bookDetails/${bookId}`}>
